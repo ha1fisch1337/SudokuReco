@@ -3,6 +3,6 @@ echo "Создание виртуального окружения..."
 python3 -m venv venv
 echo -e "Окружение создано.\nУстановка зависимостей..."
 source venv/bin/activate
-pip3 install opencv-python aiogram pillow requests
+pip3 install opencv-python aiogram pillow requests easyocr
 echo -e "Зависимости установлены.\nАктивируйте окружение и запустите скрипт."
 
